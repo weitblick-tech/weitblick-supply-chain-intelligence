@@ -399,6 +399,11 @@ hr { border: none !important; border-top: 1px solid rgba(255,255,255,0.06) !impo
     letter-spacing: -0.04em; line-height: 1.2;
     margin-bottom: 0.85rem; position: relative; z-index: 1;
 }
+.cta-heading_2 {
+    font-size: 1rem; font-weight: 700; color: #F1F5F9;
+    letter-spacing: -0.04em; line-height: 1.2;
+    margin-bottom: 0.85rem; position: relative; z-index: 1;
+}
 .cta-heading span {
     background: linear-gradient(90deg, #818CF8, #C084FC);
     -webkit-background-clip: text; -webkit-text-fill-color: transparent;
@@ -746,6 +751,7 @@ st.markdown(f'''<div class="cta-wrap">
 <a href="mailto:weitblick.contact@gmail.com" class="cta-btn-main">&#9993;&#65039;&nbsp; Get in Touch</a>
 <a href="https://calendly.com/weitblick-contact/30min" target="_blank" class="cta-btn-main">&#128197;&nbsp; Book a Free Discovery Call</a>
 </div>
+<div class="cta-heading_2">Email us at: weitblick.contact@gmail.com</div>
 <div class="cta-divider"></div>
 <div class="cta-footer-row">
 <div class="cta-trust-item"><span class="cta-trust-icon">&#9889;</span> Fast turnaround</div>
