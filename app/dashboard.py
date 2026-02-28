@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from app.insights_engine import generate_insights
+from insights_engine import generate_insights
 import plotly.express as px
 import plotly.graph_objects as go
 import psycopg
