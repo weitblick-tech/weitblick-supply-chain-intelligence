@@ -743,8 +743,8 @@ st.markdown(f'''<div class="cta-wrap">
 <div class="cta-heading">Ready to optimize your<br><span>supply chain operations?</span></div>
 <div class="cta-subtext">This dashboard is a live demo of what Weitblick builds for logistics and supply chain teams. We design and deliver custom intelligence platforms tailored to your data, your KPIs, and your workflows.</div>
 <div class="cta-buttons">
-<a href="mailto:hello@weitblick.com" class="cta-btn-main">&#9993;&#65039;&nbsp; Get in Touch</a>
-<a href="https://calendly.com/weitblick/30min" target="_blank" class="cta-btn-main">&#128197;&nbsp; Book a Free Discovery Call</a>
+<a href="mailto:weitblick.contact@gmail.com" class="cta-btn-main">&#9993;&#65039;&nbsp; Get in Touch</a>
+<a href="https://calendly.com/weitblick-contact/30min" target="_blank" class="cta-btn-main">&#128197;&nbsp; Book a Free Discovery Call</a>
 </div>
 <div class="cta-divider"></div>
 <div class="cta-footer-row">
