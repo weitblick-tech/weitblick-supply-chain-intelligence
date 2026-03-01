@@ -15,6 +15,69 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
+st.markdown("""
+<style>
+/* Mobile-only banner */
+.mobile-warning {
+    display: none;
+}
+
+/* Show ONLY on mobile screens */
+@media (max-width: 768px) {
+    .mobile-warning {
+        display: block;
+        position: sticky;
+        top: 0;
+        z-index: 9999;
+        background: linear-gradient(90deg, #0f172a, #1e293b);
+        color: white;
+        padding: 14px 18px;
+        border-radius: 12px;
+        margin-bottom: 15px;
+        border: 1px solid rgba(255,255,255,0.08);
+        box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        animation: slideDown 0.4s ease;
+    }
+
+    .mobile-warning-title {
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 4px;
+    }
+
+    .mobile-warning-sub {
+        font-size: 13px;
+        opacity: 0.85;
+        line-height: 1.4;
+    }
+
+    @keyframes slideDown {
+        from {
+            transform: translateY(-20px);
+            opacity: 0;
+        }
+        to {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+}
+</style>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<div class="mobile-warning">
+    <div class="mobile-warning-title">
+        📊 Desktop Experience Recommended
+    </div>
+    <div class="mobile-warning-sub">
+        This Weitblick Supply Chain Intelligence dashboard is optimized for desktop viewing. 
+        For the best analytics experience, open in <b>Desktop Mode</b> or use a laptop.
+    </div>
+</div>
+""", unsafe_allow_html=True)
+
 CHART_COLORS = ["#6366F1", "#10B981", "#F59E0B", "#F43F5E", "#0EA5E9", "#8B5CF6"]
 
 # ─── GLOBAL STYLES ────────────────────────────────────────────────────────────
